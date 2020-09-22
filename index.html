@@ -24,6 +24,8 @@
   <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-database.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-remote-config.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-storage.js"></script>
 
   <script>
     // Your web app's Firebase configuration
@@ -48,11 +50,11 @@
        <script>
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', function () {
-            navigator.serviceWorker.register('flutter_service_worker.js');
+            navigator.serviceWorker.register('flutter_service_worker.js?v=2202426151');
           });
         }
       </script>
-  <script src="main.dart.js" type="application/javascript"></script>
+  <script src="main.dart.js?v=2202426151" type="application/javascript"></script>
 </body>
 
 </html>
